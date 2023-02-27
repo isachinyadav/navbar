@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="data:image/jpeg;base64,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" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        <!-- social media -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-sketch"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
